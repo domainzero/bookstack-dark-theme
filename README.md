@@ -7,3 +7,13 @@ Download and use at your own risk.
 	`<link rel="stylesheet" href="https://bookstack.example.com/css/bonus.css">`
 
 Report any issues you find here.
+
+#Screenshots
+Login
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/login.png)
+Chapter and page selection
+![](https://github.com/domainzero/bookstack-dark-theme/blob/master/screenshots/chapter%20and%20page%20selection.png)
+Page example 
+![](https://github.com/domainzero/bookstack-dark-theme/blob/master/screenshots/page%20example.png)
+Markdown editor
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/markdown%20editor.png)
