@@ -1,3 +1,4 @@
+
 html {
     background-color: #212121!important;
 }
@@ -18,7 +19,7 @@ a {
     color: #039BE5;
 }
 span.primary:hover, .text-primary:hover, a:hover, a:focus{
-    color: #81D4FA!important;
+    color: #81D4FA;
 }
 /* style the links to be material colors */
 .text-book, .text-book:hover {
@@ -68,7 +69,7 @@ hr {
 header {
     border-bottom: 0!important
 }
-/* niga i'm faded faded  */
+/* i'm faded faded  */
 .faded a,
 .faded button,
 .faded span,
@@ -86,6 +87,9 @@ header {
 .sortable-page-list,
 .sortable-page-list ul {
     background-color: #424242!important
+}
+.dropdown-container ul a {
+   color: #fff
 }
 
 /* change input button colors to be dark gray */
@@ -183,8 +187,14 @@ background-color: #424242!important;
 
 /* adjust the floating toolbox and toolbox bar */
 .floating-toolbox {
-    background-color: #424242;
+    background-color: #212121;
     border: 0;
+    color: #fff;
+}
+.floating-toolbox .tabs i {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0;
+    margin: 0;
 }
 
 /* make the "move page" stuff dark*/
