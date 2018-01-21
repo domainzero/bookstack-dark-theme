@@ -1,240 +1,33 @@
+/* background stuff */
 
-html {
-    background-color: #212121!important;
-}
+.card{	background-color: #282a36;}
+html.shaded {background-color: #282a36;}
+.flex.sidebar+.flex.content{background-color: #282a36;}
+.flex.sidebar {background-color: #282a36;}
+body.shaded {background-color: #282a36;}
+.toolbar-container {background-color:#282a36}
+.search-box input{background-color:rgba(0,0,0,.2);border:1px solid rgba(255,255,255,.3)}
+hr{background-color:rgba(0,0,0,.2)}
+.page-list .page {border-left: 5px solid #8be9fd}
+.page-list h5{border-left: 5px solid #8be9fd}
 
-body {
-    color: #FFFFFF!important;
-}
 
-.book-tree,
-.book-tree.fixed {
-    background-color: #212121!important;
-    border: 0!important
-}
+/* text stuff */
+body{color: #f8f8f2;}
+.text-page {color: #8be9fd;}
+.text-book {color: #50fa7b;}
+.text-chapter {color: #ffb86c;}
+.text-primary, p.primary, p .primary, span.primary:hover, .text-primary:hover, a, a:hover, a:focus, .text-button, .text-button:hover, .text-button:focus {color: #f8f8f2;}
+h1, h2, h3, h4, h5, h6 {color: #f8f8f2;}
 
-.link,
-.text-button,
-a {
-    color: #039BE5;
-}
-span.primary:hover, .text-primary:hover, a:hover, a:focus{
-    color: #81D4FA;
-}
-/* style the links to be material colors */
-.text-book, .text-book:hover {
-    color: #00897B;
-}
-.text-chapter, .text-chapter:hover{
-    color: #FB8C00;
-}
+/* border changes */
+header {border-bottom: 0;}
+.flex.sidebar+.flex.content {border-left: 0;}
+.card h3{ border-bottom:0}
+#sidebar .scroll-body.fixed{border-left: 1px solid #6272a4}
+.fake-input, .input-base, input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=text], input[type=url], select, textarea{border:1px solid #44475a;color:#44475a}
+.activity-list-item {border-bottom:1px solid rgba(0,0,0,.2)}
+.page-list .chapter {border-left: 5px solid #ffb86c;
 
-.text-page, .text-page:hover{
-    color: #039BE5;
-}
-.button {
-    color: #fff!important;
-}
-
-.title-input input[type=text],
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #fff!important
-}
-
-.input-base,
-input[type=text],
-input[type=number],
-input[type=email],
-input[type=url],
-input[type=password],
-select,
-textarea {
-    background-color: #424242!important;
-    border: 0!important;
-    border-radius: 0!important;
-    color: #fff!important
-}
-
-hr {
-    background: #424242;
-    height: 0;
-
-}
-
-header {
-    border-bottom: 0!important
-}
-/* i'm faded faded  */
-.faded a,
-.faded button,
-.faded span,
-.faded span>div {
-    color: #039BE5;
-}
-
-.dropdown-container ul {
-    background-color: #424242!important;
-    border: 1px solid #545454!important
-}
-
-/* change dropdown menus to be dark gray */
-.dropdown-container ul,
-.sortable-page-list,
-.sortable-page-list ul {
-    background-color: #424242!important
-}
-.dropdown-container ul a {
-   color: #fff
-}
-
-/* change input button colors to be dark gray */
-.button.pos,
-input[type=button].pos,
-input[type=submit].pos {
-    background-color: #424242!important
-}
-
-/* change the editor toolbar to not have a border in the markdown editor */
-.editor-toolbar {
-    background-color: #424242!important;
-    border-bottom: 0!important;
-    padding-bottom: 5px!important
-}
-
-/* no borders, fuck */
-#markdown-editor .markdown-editor-wrap {
-    border: 0!important;
-    /* padding: 0 3px!important;*/
-}
-/* fix the fucking strikethrough*/
-.page-content del {
-    background: none!important;
-    text-decoration: line-through!important
-}
-/* remove the border on the activity list on the main page */
-.activity-list-item {
-    border-bottom: 0!important
-}
-
-/* allow the border and shit on the search box */
-form.search-box input {
-    background-color: transparent!important;
-    border-radius: 24px!important;
-    border: 2px solid #eee!important;
-}
-/*change table header to be readable */
-table thead {
-    background-color: #424242!important
-}
-
-/* hide activity feed... somewhere */
-.activity {
-    display: none!important
-}
-/* style the hjls snippet background */
-pre {
-    border: 0!important;
-    background-color:#424242
-}
-/* style the inline code */
-.code-base, code, span.code {
-background-color: #424242;
-    font-family: monospace;
-    font-size: .8em;
-    border: 1px solid #0288d1;
-    border-radius: 0px;
-}
-
-/*change the font size in the markdown editor because it is huge */
-#markdown-editor textarea, .editor-toolbar {
-    font-size: 12px;
-}
-/* Make it so block quotes are readable since the background is white */
-blockquote {
-background-color: #424242!important;
-}
-
-.callout.success {
-    border-left-color: #00ff0d;
-    /* background-color: rgba(83, 255, 83, 0.7)*/
-    background-color: rgba(67, 160, 71, .9);
-    color: #fff;
-}
-.callout.info{
-    border-left-color: #00a9ff;
-    color: #fff;
-   /* background-color: rgba(104,200,255,.7);*/
-    background-color:rgba(0, 172, 193, .9);
-}
-.callout.warning{
-    border-left-color: #ff5c00;
-    color: #fff;
-   /* background-color: rgba(255,146,57,0.7);*/
-   background-color:rgba(251, 140, 0, .9);
-}
-.callout.danger{
-    border-left-color: #ff0000;
-    color: #fff;
-   /* background-color: rgba(244,67,54,.7);*/
-    background-color:rgba(229, 57, 53, .9);
-
-}
-
-/* adjust the floating toolbox and toolbox bar */
-.floating-toolbox {
-    background-color: #212121;
-    border: 0;
-    color: #fff;
-}
-.floating-toolbox .tabs i {
-    color: rgba(255, 255, 255, 0.5);
-    padding: 0;
-    margin: 0;
-}
-
-/* make the "move page" stuff dark*/
-.entity-selector .entity-list>div{
-    background-color:#424242;
-}
-
-.entity-selector .entity-list {
-    background-color: #424242;
-}
-/* materialize the sidebar */
-.book-tree .sidebar-page-list {
-    border-left: 5px solid #00897B;
-}
-
-.book-tree .sidebar-page-list .list-item-chapter{
-    border-left: 5px solid #ef7c3c
-}
-
-.book-tree .sidebar-page-list .list-item-page{
-    border-left: 5px solid #039BE5;
-}
-
-/* add material shadows to page list items */
-.page-list .page {
-    border-left: 5px solid #039BE5;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    padding: 5px;
-}
-.page-list .page:hover{
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-.page-list .chapter {
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    padding: 5px;
-}
-
-.page-list .chapter:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
+/* other changes */
+code {color:#ff5555;background-color:#6272a4}
