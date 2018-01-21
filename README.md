@@ -10,12 +10,12 @@ Report any issues you find here.
 
 # Screenshots
 Login
-![](https://i.imgur.com/kofOChc.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20login.png)
 Main page
-![](https://imgur.com/jAk7SWZ.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20main%20page.png)
 Book with chapters
-![](https://imgur.com/H3RLR9L.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20book.png)
 Page
-![](https://imgur.com/L7sfCFp.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20page.png)
 Editor
-![](https://imgur.com/RBesILK.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20editor.png)
