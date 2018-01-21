@@ -1,5 +1,4 @@
 /* background stuff */
-
 .card{	background-color: #282a36;}
 html.shaded {background-color: #282a36;}
 .flex.sidebar+.flex.content{background-color: #282a36;}
@@ -10,7 +9,11 @@ body.shaded {background-color: #282a36;}
 hr{background-color:rgba(0,0,0,.2)}
 .page-list .page {border-left: 5px solid #8be9fd}
 .page-list h5{border-left: 5px solid #8be9fd}
-
+.faded-small, .primary-background-light {background-color: #282a36;}
+.floating-toolbox{background-color:#282a36}
+.editor-toolbar{background-color:#282a36;border-bottom:1px solid rgba(0,0,0,.2);}
+.title-input.page-title .input{background-color:#282a36;}
+#markdown-editor .markdown-editor-wrap {background-color: #282a36;}
 
 /* text stuff */
 body{color: #f8f8f2;}
@@ -19,15 +22,42 @@ body{color: #f8f8f2;}
 .text-chapter {color: #ffb86c;}
 .text-primary, p.primary, p .primary, span.primary:hover, .text-primary:hover, a, a:hover, a:focus, .text-button, .text-button:hover, .text-button:focus {color: #f8f8f2;}
 h1, h2, h3, h4, h5, h6 {color: #f8f8f2;}
+.faded a, .faded button, .faded span, .faded span>div {color: #6272a4;}
 
 /* border changes */
 header {border-bottom: 0;}
 .flex.sidebar+.flex.content {border-left: 0;}
 .card h3{ border-bottom:0}
 #sidebar .scroll-body.fixed{border-left: 1px solid #6272a4}
-.fake-input, .input-base, input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=text], input[type=url], select, textarea{border:1px solid #44475a;color:#44475a}
+.fake-input, .input-base, input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=text], input[type=url], select, textarea{border: 1px solid #44475a;color: #f8f8f2;background-color: rgba(0,0,0,.2);}
 .activity-list-item {border-bottom:1px solid rgba(0,0,0,.2)}
-.page-list .chapter {border-left: 5px solid #ffb86c;
+.page-list .chapter {border-left: 5px solid #ffb86c;}
+.floating-toolbox{border:0}
+#markdown-editor .markdown-editor-wrap{border: 1px solid rgba(0,0,0,.2);}
 
 /* other changes */
-code {color:#ff5555;background-color:#6272a4}
+code {color:#ff5555;background-color:#f8f8f2}
+.button.pos, input[type=button].pos, input[type=submit].pos {background-color: #50fa7b;color: #eee;text-transform: uppercase;border: 1px solid #52a256;vertical-align: top;}
+table.table tr:hover {background-color: #44475a;}
+table.table tr {border-bottom: 1px solid rgba(0,0,0,.2);}
+blockquote{border-left: 4px solid #8be9fd;background-color: #44475a;}
+
+/* scrollbar */
+.scrollbar{margin-left: 30px;float: left;height: 300px;width: 65px;background: #F5F5F5;overflow-y: scroll;margin-bottom: 25px;}
+.force-overflow{min-height: 450px;}
+#wrapper{text-align: center;width: 500px;margin: auto;}
+#style-2::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);border-radius: 10px;background-color: #F5F5F5;}
+#style-2::-webkit-scrollbar{width: 12px;background-color: #F5F5F5;}
+#style-2::-webkit-scrollbar-thumb{border-radius: 10px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color: #D62929;}
+
+/* sidebar
+**************
+pages */
+.book-tree .sidebar-page-list .page {color: #8be9fd!important;}
+.book-tree .sidebar-page-list .list-item-page {border-left: 5px solid #8be9fd;}
+/* chapters */
+.book-tree .sidebar-page-list .chapter {color: #ffb86c!important;}
+.book-tree .sidebar-page-list .list-item-chapter {border-left: 5px solid #ffb86c;}
+/* books */
+.book-tree .sidebar-page-list .book {color: #50fa7b!important;}
+.book-tree .sidebar-page-list {border-left: 5px solid #50fa7b;}
