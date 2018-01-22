@@ -9,13 +9,13 @@ Download and use at your own risk.
 Report any issues you find here.
 
 # Screenshots
-Login
+**Login:**
 ![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20login.png)
-Main page
+**Main page:**
 ![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20main%20page.png)
-Book with chapters
+**Book with chapters:**
 ![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20book.png)
-Page
+**Page:**
 ![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20page.png)
-Editor
+**Editor:**
 ![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20editor.png)
