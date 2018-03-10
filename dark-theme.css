@@ -14,6 +14,7 @@ hr{background-color:rgba(0,0,0,.2)}
 .editor-toolbar{background-color:#282a36;border-bottom:1px solid rgba(0,0,0,.2);}
 .title-input.page-title .input{background-color:#282a36;}
 #markdown-editor .markdown-editor-wrap {background-color: #282a36;}
+#tinymce {background-color: #282a36;}
 
 /* text stuff */
 body{color: #f8f8f2;}
