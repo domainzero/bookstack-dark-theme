@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
 /* background stuff */
-.card{	background-color: #282a36;}
+html {background-color: #282b36;}
+body {font-family: "Roboto", sans-serif!important;}
 html.shaded {background-color: #282a36;}
 .flex.sidebar+.flex.content{background-color: #282a36;}
 .flex.sidebar {background-color: #282a36;}
@@ -14,16 +17,19 @@ hr{background-color:rgba(0,0,0,.2)}
 .editor-toolbar{background-color:#282a36;border-bottom:1px solid rgba(0,0,0,.2);}
 .title-input.page-title .input{background-color:#282a36;}
 #markdown-editor .markdown-editor-wrap {background-color: #282a36;}
-#tinymce {background-color: #282a36;}
+.card{  background-color: #282a36;}
 
 /* text stuff */
 body{color: #f8f8f2;}
 .text-page {color: #8be9fd;}
 .text-book {color: #50fa7b;}
 .text-chapter {color: #ffb86c;}
-.text-primary, p.primary, p .primary, span.primary:hover, .text-primary:hover, a, a:hover, a:focus, .text-button, .text-button:hover, .text-button:focus {color: #f8f8f2;}
+.text-primary, p.primary, p .primary, span.primary:hover, .text-primary:hover, .text-button, .text-button:hover, .text-button:focus {color: #f8f8f2;}
 h1, h2, h3, h4, h5, h6 {color: #f8f8f2;}
-.faded a, .faded button, .faded span, .faded span>div {color: #6272a4;}
+h1 {font-weight: 900}
+h2, h3, h4, h5, h6 {font-weight: 700}
+.faded a, .faded button, .faded span, .faded span>div {color: #f8f8f2;}
+.entity-list .page.draft .text-page {color: #bd93f9;}
 
 /* border changes */
 header {border-bottom: 0;}
@@ -37,13 +43,15 @@ header {border-bottom: 0;}
 #markdown-editor .markdown-editor-wrap{border: 1px solid rgba(0,0,0,.2);}
 
 /* other changes */
-code {color:#ff5555;background-color:#f8f8f2}
+code {color:#50fa7b;background-color:#44475a}
+.code-base, code, span.code {border: 1px solid #6272a4;border-radius: 0px;}
 .button.pos, input[type=button].pos, input[type=submit].pos {background-color: #50fa7b;color: #eee;text-transform: uppercase;border: 1px solid #52a256;vertical-align: top;}
 table.table tr:hover {background-color: #44475a;}
 table.table tr {border-bottom: 1px solid rgba(0,0,0,.2);}
 blockquote{border-left: 4px solid #8be9fd;background-color: #44475a;}
 
-/* scrollbar */
+/* scrollbar
+*********************************/
 .scrollbar{margin-left: 30px;float: left;height: 300px;width: 65px;background: #F5F5F5;overflow-y: scroll;margin-bottom: 25px;}
 .force-overflow{min-height: 450px;}
 #wrapper{text-align: center;width: 500px;margin: auto;}
@@ -52,7 +60,7 @@ blockquote{border-left: 4px solid #8be9fd;background-color: #44475a;}
 #style-2::-webkit-scrollbar-thumb{border-radius: 10px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color: #D62929;}
 
 /* sidebar
-**************
+******************************
 pages */
 .book-tree .sidebar-page-list .page {color: #8be9fd!important;}
 .book-tree .sidebar-page-list .list-item-page {border-left: 5px solid #8be9fd;}
@@ -62,3 +70,39 @@ pages */
 /* books */
 .book-tree .sidebar-page-list .book {color: #50fa7b!important;}
 .book-tree .sidebar-page-list {border-left: 5px solid #50fa7b;}
+
+.input-base.invalid, .input-base.neg, .invalid.fake-input, .neg.fake-input, input.invalid[type=date], input.invalid[type=email], input.invalid[type=number], input.invalid[type=password], input.invalid[type=search], input.invalid[type=text], input.invalid[type=url], input.neg[type=date], input.neg[type=email], input.neg[type=number], input.neg[type=password], input.neg[type=search], input.neg[type=text], input.neg[type=url], select.invalid, select.neg, textarea.invalid, textarea.neg {border: 1px solid #ff5555;}
+
+.text-neg, p .neg, p.neg, span.neg {color: #ff5555;}
+
+.dropdown-container ul {background-color: #282a36;box-shadow: 0 0 2px 0 rgba(0,0,0,.1);border-radius: 1px;border: 1px solid #44475a;color: #f8f8f2;}
+.dropdown-container ul a, .dropdown-container ul button {color:#f8f8f2}
+.text-primary, p.primary, p .primary, span.primary:hover, .text-primary:hover, a, a:hover, a:focus, .text-button, .text-button:hover, .text-button:focus {color: #f8f8f2;}
+.dropdown-container ul a:hover {background-color: #44475a;}
+.outline>input:active, .outline>input:focus {border-bottom: 2px solid #8be9fd;}
+.card.drag-card>div .outline input {background-color: #282a36;color:#f8f8f2}
+.card.drag-card .handle {background-color:#282a36;}
+.card.drag-card {border: 1px solid #44475a;}
+.card.drag-card .drag-card-action:hover, .card.drag-card .handle:hover {background-color: #44475a;}
+
+pre {background-color: #44475a;border: 1px solid #ddd;}
+pre:after {width: 0px;border-right:0}
+
+.sortable-page-list li {border: 1px solid #6272a4;}
+.sortable-page-list, .sortable-page-list ul {background-color: #282b36;}
+.well {background-color: #282a36;border:0;}
+.button.outline.page {border-color: #8be9fd;color: #8be9fd;}
+.button.outline.book {border-color: #50fa7b;color: #50fa7b;}
+
+.featured-image-container {background: none}
+.floating-toolbox .tabs {border-right: 1px solid #44475a;}
+.scroll-box {border: 1px solid #44475a;}
+.scroll-box .scroll-box-item {border-bottom: 1px solid #44475a;}
+
+/* style scrollbar */
+::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar-track {background: #282a36;}
+::-webkit-scrollbar-thumb {background: #44475a;}
+::-webkit-scrollbar-thumb:hover {background: #50fa7b;}
+/* icons */
+.floating-toolbox .tabs svg {fill: rgba(248, 248, 242, 1);}
