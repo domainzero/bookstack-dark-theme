@@ -99,10 +99,19 @@ pre:after {width: 0px;border-right:0}
 .scroll-box {border: 1px solid #44475a;}
 .scroll-box .scroll-box-item {border-bottom: 1px solid #44475a;}
 
-/* style scrollbar */
 ::-webkit-scrollbar {width: 10px;}
 ::-webkit-scrollbar-track {background: #282a36;}
 ::-webkit-scrollbar-thumb {background: #44475a;}
 ::-webkit-scrollbar-thumb:hover {background: #50fa7b;}
-/* icons */
 .floating-toolbox .tabs svg {fill: rgba(248, 248, 242, 1);}
+
+.entity-selector .entity-list > div {background-color:#282a36;}
+.entity-selector .entity-list {color:#f8f8f2;background-color: #282a36}
+
+/* WSIWYG editor fixes */
+#tinymce {background-color: #282a36!important;}
+.mce-container, .mce-container *, .mce-widget, .mce-widget *, .mce-reset {background-color: #282a36!important;}
+.mce-menubtn button {color: #f8f8f2!important;}
+.mce-ico {color:#f8f8f2!important;}
+.mce-grid-border a:hover, .mce-grid-border a.mce-active {border-color: #8be9fd;background: #bdd6f2;}
+.mce-menu-item.mce-selected .mce-text, .mce-menu-item.mce-selected .mce-ico {color: #f8f8f2!important;}
