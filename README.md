@@ -5,6 +5,13 @@ Download and use at your own risk.
 1. Deploy this CSS file to your Bookstack install's public/css folder
 2. Call the stylesheet in the "Custom HTML head content" section in the settings like so:
 	`<link rel="stylesheet" href="https://bookstack.example.com/css/dark-theme.css">`
+	
+#### Changing the Codemirror theme for the Markdown editor
+Add the following to the "Custom HTML head content" box on the settings page to change the Markdown editor theme:
+```
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/theme/dracula.min.css"/>
+<script>window.codeTheme='dracula';</script>
+```
 
 Report any issues you find here.
 
