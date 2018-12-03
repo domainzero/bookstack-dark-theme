@@ -17,12 +17,12 @@ Report any issues you find here.
 
 # Screenshots
 **Login:**
-![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20login.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/login.png)
 **Main page:**
-![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20main%20page.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/overview.png)
 **Book with chapters:**
-![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20book.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/book.png)
 **Page:**
-![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20page.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/page.png)
 **Editor:**
-![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/stacks%20editor.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/editor.png)
