@@ -116,6 +116,11 @@ pre:after {width: 0px;border-right:0}
 .mce-grid-border a:hover, .mce-grid-border a.mce-active {border-color: #8be9fd;background: #bdd6f2;}
 .mce-menu-item.mce-selected .mce-text, .mce-menu-item.mce-selected .mce-ico {color: #f8f8f2!important;}
 
+th {background-color: #44475a}
+
+ul > li > a {color: #8be9fd!important}
+.page-content > div > a {color: #8be9fd!important}
+
 /* Suggestion box for tags */
 .suggestion-box {
     background: #282a36;
