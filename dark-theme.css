@@ -2,7 +2,7 @@
 
 /* background stuff */
 html {background-color: #282b36;}
-body {font-family: "Roboto", sans-serif!important;}
+body {font-family: "Roboto", sans-serif!important;background-color: #282b36;}
 html.shaded {background-color: #282a36;}
 .flex.sidebar+.flex.content{background-color: #282a36;}
 .flex.sidebar {background-color: #282a36;}
@@ -26,6 +26,8 @@ body{color: #f8f8f2;}
 .text-chapter {color: #ffb86c;}
 .text-primary, p.primary, p .primary, span.primary:hover, .text-primary:hover, .text-button, .text-button:hover, .text-button:focus {color: #f8f8f2;}
 h1, h2, h3, h4, h5, h6 {color: #f8f8f2;}
+.page-content h1{text-transform:uppercase}
+h1.break-text{text-transform:uppercase}
 h1 {font-weight: 900}
 h2, h3, h4, h5, h6 {font-weight: 700}
 .faded a, .faded button, .faded span, .faded span>div {color: #f8f8f2;}
@@ -115,17 +117,22 @@ pre:after {width: 0px;border-right:0}
 .mce-ico {color:#f8f8f2!important;}
 .mce-grid-border a:hover, .mce-grid-border a.mce-active {border-color: #8be9fd;background: #bdd6f2;}
 .mce-menu-item.mce-selected .mce-text, .mce-menu-item.mce-selected .mce-ico {color: #f8f8f2!important;}
+.popup-body {background-color: #282a36!important;}
 
 th {background-color: #44475a}
+
+
 
 ul > li > a {color: #8be9fd!important}
 .page-content > div > a {color: #8be9fd!important}
 
-/* Suggestion box for tags */
-.suggestion-box {
-    background: #282a36;
+@page{
+    margin:0cm!important;
+    size: A4
 }
 
-.suggestion-box .active {
-    background: #282a36!important;
-}
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
