@@ -17,7 +17,7 @@ hr{background-color:rgba(0,0,0,.2)}
 .editor-toolbar{background-color:#282a36;border-bottom:1px solid rgba(0,0,0,.2);}
 .title-input.page-title .input{background-color:#282a36;}
 #markdown-editor .markdown-editor-wrap {background-color: #282a36;}
-.card{  background-color: #282a36;}
+.card{  background-color: #282a36;box-shadow:none}
 
 /* text stuff */
 body{color: #f8f8f2;}
@@ -47,7 +47,7 @@ header {border-bottom: 0;}
 /* other changes */
 code {color:#50fa7b;background-color:#44475a}
 .code-base, code, span.code {border: 1px solid #6272a4;border-radius: 0px;}
-.button.pos, input[type=button].pos, input[type=submit].pos {background-color: #50fa7b;color: #eee;text-transform: uppercase;border: 1px solid #52a256;vertical-align: top;}
+.button.pos, input[type=button].pos, input[type=submit].pos {background-color: #50fa7b;color: #282a36;text-transform: uppercase;border: 1px solid #52a256;vertical-align: top;}
 table.table tr:hover {background-color: #44475a;}
 table.table tr {border-bottom: 1px solid rgba(0,0,0,.2);}
 blockquote{border-left: 4px solid #8be9fd;background-color: #44475a;}
@@ -120,8 +120,9 @@ pre:after {width: 0px;border-right:0}
 .mce-widget, .mce-textbox {color: #ffffff!important;}
 .mce-label {text-shadow: none!important;}
 .popup-body {background-color: #282a36!important;}
-
 th {background-color: #44475a}
+.pos .svg-icon {fill:#282a36}
+
 
 
 
