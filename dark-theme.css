@@ -61,17 +61,6 @@ blockquote{border-left: 4px solid #8be9fd;background-color: #44475a;}
 #style-2::-webkit-scrollbar{width: 12px;background-color: #F5F5F5;}
 #style-2::-webkit-scrollbar-thumb{border-radius: 10px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color: #D62929;}
 
-/* sidebar
-******************************
-pages */
-.book-tree .sidebar-page-list .page {color: #8be9fd!important;}
-.book-tree .sidebar-page-list .list-item-page {border-left: 5px solid #8be9fd;}
-/* chapters */
-.book-tree .sidebar-page-list .chapter {color: #ffb86c!important;}
-.book-tree .sidebar-page-list .list-item-chapter {border-left: 5px solid #ffb86c;}
-/* books */
-.book-tree .sidebar-page-list .book {color: #50fa7b!important;}
-.book-tree .sidebar-page-list {border-left: 5px solid #50fa7b;}
 
 .input-base.invalid, .input-base.neg, .invalid.fake-input, .neg.fake-input, input.invalid[type=date], input.invalid[type=email], input.invalid[type=number], input.invalid[type=password], input.invalid[type=search], input.invalid[type=text], input.invalid[type=url], input.neg[type=date], input.neg[type=email], input.neg[type=number], input.neg[type=password], input.neg[type=search], input.neg[type=text], input.neg[type=url], select.invalid, select.neg, textarea.invalid, textarea.neg {border: 1px solid #ff5555;}
 
@@ -139,3 +128,64 @@ ul > li > a {color: #8be9fd!important}
     width: 210mm;
     height: 297mm;
   }
+
+@media screen and (max-width: 1100px)
+.flex.sidebar .sidebar-toggle {
+        border: none!important;
+        border-top: none!important;
+}
+
+.pointer {
+        background-color: #44475a!important;
+        box-shadow: none!important;
+        border: none!important;
+}
+
+.page-content del {
+    background: #FF5555!important;
+}
+
+.page-content ins {
+    background: #50fa7b!important;
+    color: #282a36!important;
+}
+
+.suggestion-box {
+    background-color: #282a36!important;
+    border: 1px solid #BBB;
+    box-shadow: none!important;
+    border-radius: 0!important; }
+.suggestion-box li:last-child {
+    border-bottom: 0; }
+.suggestion-box li.active {
+    background-color: #44475a!important; }
+
+/* CHANGES FOR .26 RELEASE */
+
+.card .entity-list-item:not(.no-hover):hover {
+    background-color: #44475a!important;
+}
+
+.text-chapter, .text-chapter:hover {
+    color: #ffb86c;
+    fill: #ffb86c;
+}
+
+.text-page, .text-page:hover {
+    color: #8be9fd;
+    fill: #8be9fd;
+}
+
+.breadcrumb-listing .breadcrumb-listing-toggle:hover {
+    border-color: none;
+}
+
+.tri-layout-mobile-tab {
+    background-color: #282a36;
+    color: #f8f8f2;
+}
+
+.tri-layout-mobile-tab:first-child {
+    background-color: #282a36;
+    color: #f8f8f2;
+}
