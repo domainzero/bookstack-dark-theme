@@ -34,7 +34,10 @@ h2, h3, h4, h5, h6 {font-weight: 700}
 .entity-list .page.draft .text-page {color: #bd93f9;}
 .card .entity-list-item:not(.no-hover):hover {background-color: #787878 !important;}
 .card .entity-list-item:not(.no-hover):hover .text-muted {color: white !important;}
-
+.setting-list-label {color: #999;}
+.tag-item .tag-value {background-color: rgba(255, 255, 255, 0.1);}
+.tag-item a {color: #f8f8f2;}
+.text-small {color: #777 !important;}
 
 /* border changes */
 header {border-bottom: 0;}
