@@ -18,6 +18,7 @@ hr{background-color:rgba(0,0,0,.2)}
 .title-input.page-title .input{background-color:#282a36;}
 #markdown-editor .markdown-editor-wrap {background-color: #282a36;}
 .card{  background-color: #282a36;box-shadow:none}
+.comment-box {background-color: #333644;}
 
 /* text stuff */
 body{color: #f8f8f2;}
