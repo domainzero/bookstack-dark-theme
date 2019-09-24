@@ -18,6 +18,7 @@ hr{background-color:rgba(0,0,0,.2)}
 .title-input.page-title .input{background-color:#282a36;}
 #markdown-editor .markdown-editor-wrap {background-color: #282a36;}
 .card{  background-color: #282a36;box-shadow:none}
+.comment-box {background-color: #333644;}
 
 /* text stuff */
 body{color: #f8f8f2;}
@@ -32,6 +33,12 @@ h1 {font-weight: 900}
 h2, h3, h4, h5, h6 {font-weight: 700}
 .faded a, .faded button, .faded span, .faded span>div {color: #f8f8f2;}
 .entity-list .page.draft .text-page {color: #bd93f9;}
+.card .entity-list-item:not(.no-hover):hover {background-color: #787878 !important;}
+.card .entity-list-item:not(.no-hover):hover .text-muted {color: white !important;}
+.setting-list-label {color: #999;}
+.tag-item .tag-value {background-color: rgba(255, 255, 255, 0.1);}
+.tag-item a {color: #f8f8f2;}
+.text-small {color: #777 !important;}
 
 /* border changes */
 header {border-bottom: 0;}
