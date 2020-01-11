@@ -1,8 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+/*
+*************************************************************
+Colors and theming used are from the fantastic Dracula color
+scheme found here: https://github.com/dracula/dracula-theme
+*/
 
-/* background stuff */
+/* optional */
+/* uppercase titles */
+.page-content h1{text-transform:uppercase}
+h1.break-text{text-transform:uppercase}
+
+
+/* Dracula stuff */
+
+/* background */
+:focus{outline-style:none!important}
 html {background-color: #282b36;}
-body {font-family: "Roboto", sans-serif!important;background-color: #282b36;}
+body {font-family: "Roboto", sans-serif!important;background-color: #282b36; color:#f8f8f2}
 html.shaded {background-color: #282a36;}
 .flex.sidebar+.flex.content{background-color: #282a36;}
 .flex.sidebar {background-color: #282a36;}
@@ -17,32 +30,31 @@ hr{background-color:rgba(0,0,0,.2)}
 .editor-toolbar{background-color:#282a36;border-bottom:1px solid rgba(0,0,0,.2);}
 .title-input.page-title .input{background-color:#282a36;}
 #markdown-editor .markdown-editor-wrap {background-color: #282a36;}
-.card{  background-color: #282a36;box-shadow:none}
+.card{  background: transparent;box-shadow:none}
 .comment-box {background-color: #333644;}
 .suggestion-box {background-color: #5e606a;}
 .suggestion-box li.active {background-color: #9b9ca3;}
 [notification] {background-color: #1d1f26;}
 
-/* text stuff */
-body{color: #f8f8f2;}
+/* text */
 .text-page {color: #8be9fd;}
 .text-book {color: #50fa7b;}
 .text-chapter {color: #ffb86c;}
 .text-primary, p.primary, p .primary, span.primary:hover, .text-primary:hover, .text-button, .text-button:hover, .text-button:focus {color: #f8f8f2;}
 h1, h2, h3, h4, h5, h6 {color: #f8f8f2;}
-.page-content h1{text-transform:uppercase}
-h1.break-text{text-transform:uppercase}
 h1 {font-weight: 900}
 h2, h3, h4, h5, h6 {font-weight: 700}
 .faded a, .faded button, .faded span, .faded span>div {color: #f8f8f2;}
 .entity-list .page.draft .text-page {color: #bd93f9;}
-.card .entity-list-item:not(.no-hover):hover {background-color: #787878 !important;}
+.card .entity-list-item:not(.no-hover):hover {background-color: #44475a !important;}
 .card .entity-list-item:not(.no-hover):hover .text-muted {color: white !important;}
+.entity-list-item:not(.no-hover):hover, .icon-list-item:not(.no-hover):hover {background-color: #44475a;color:#f8f8f2 !important;}
 .setting-list-label {color: #999;}
 .tag-item .tag-value {background-color: rgba(255, 255, 255, 0.1);}
 .tag-item a {color: #f8f8f2;}
 .text-small {color: #777 !important;}
 [notification="success"] svg {fill: #0f7d15 !important;}
+.entity-list-item:focus, .icon-list-item:focus {background-color:#44475a;}
 
 /* border changes */
 header {border-bottom: 0;}
@@ -54,14 +66,6 @@ header {border-bottom: 0;}
 .page-list .chapter {border-left: 5px solid #ffb86c;}
 .floating-toolbox{border:0}
 #markdown-editor .markdown-editor-wrap{border: 1px solid rgba(0,0,0,.2);}
-
-/* other changes */
-code {color:#50fa7b;background-color:#44475a}
-.code-base, code, span.code {border: 1px solid #6272a4;border-radius: 0px;}
-.button.pos, input[type=button].pos, input[type=submit].pos {background-color: #50fa7b;color: #282a36;text-transform: uppercase;border: 1px solid #52a256;vertical-align: top;}
-table.table tr:hover {background-color: #44475a;}
-table.table tr {border-bottom: 1px solid rgba(0,0,0,.2);}
-blockquote{border-left: 4px solid #8be9fd;background-color: #44475a;}
 
 /* scrollbar
 *********************************/
@@ -85,12 +89,11 @@ pages */
 .book-tree .sidebar-page-list {border-left: 5px solid #50fa7b;}
 
 .input-base.invalid, .input-base.neg, .invalid.fake-input, .neg.fake-input, input.invalid[type=date], input.invalid[type=email], input.invalid[type=number], input.invalid[type=password], input.invalid[type=search], input.invalid[type=text], input.invalid[type=url], input.neg[type=date], input.neg[type=email], input.neg[type=number], input.neg[type=password], input.neg[type=search], input.neg[type=text], input.neg[type=url], select.invalid, select.neg, textarea.invalid, textarea.neg {border: 1px solid #ff5555;}
-
 .text-neg, p .neg, p.neg, span.neg {color: #ff5555;}
 
 .dropdown-container ul {background-color: #282a36;box-shadow: 0 0 2px 0 rgba(0,0,0,.1);border-radius: 1px;border: 1px solid #44475a;color: #f8f8f2;}
 .dropdown-container ul a, .dropdown-container ul button {color:#f8f8f2}
-.text-primary, p.primary, p .primary, span.primary:hover, .text-primary:hover, a, a:hover, a:focus, .text-button, .text-button:hover, .text-button:focus {color: #f8f8f2;}
+.text-primary, p.primary, p .primary, span.primary:hover, .text-primary:hover, a, a:hover, a:focus, .text-button, .text-button:hover, .text-button:focus {color: #f8f8f2!important;fill:#f8f8f2!important;}
 .dropdown-container ul a:hover {background-color: #44475a;}
 .outline>input:active, .outline>input:focus {border-bottom: 2px solid #8be9fd;}
 .card.drag-card>div .outline input {background-color: #282a36;color:#f8f8f2}
@@ -134,19 +137,45 @@ pre:after {width: 0px;border-right:0}
 th {background-color: #44475a}
 .pos .svg-icon {fill:#282a36}
 
-
-
-
 ul > li > a {color: #8be9fd!important}
 .page-content > div > a {color: #8be9fd!important}
 
-@page{
-    margin:0cm!important;
-    size: A4
-}
+/* pdf print fixes */
+@page{margin:0cm!important;size: A4}
+@media print {html, body {width: 210mm;height: 297mm;}
 
-@media print {
-  html, body {
-    width: 210mm;
-    height: 297mm;
-  }
+/* one offs */
+.entity-list {background-color:#282a36 !important;}
+.svg-icon {fill:#f8f8f2!important;}
+.breadcrumb-listing .breadcrumb-listing-toggle:hover {fill: #f8f8f2;border-color: transparent;}
+.icon-list.text-primary {fill:#f8f8f2!important}
+#export-menu {color:#f8f8f2!important;}
+.book-tree .sidebar-page-list .entity-list-item.selected {background-color:#44475a;}
+/* other changes */
+code {color:#50fa7b;background-color:#44475a}
+.code-base, code, span.code {border: 1px solid #6272a4;border-radius: 0px;}
+.button.pos, input[type=button].pos, input[type=submit].pos {background-color: #50fa7b;color: #282a36;text-transform: uppercase;border: 1px solid #52a256;vertical-align: top;}
+table.table tr:hover {background-color: #44475a;}
+table.table tr {border-bottom: 1px solid rgba(0,0,0,.2);}
+blockquote{border-left: 4px solid #8be9fd;background-color: #44475a;}
+
+
+/* Stuff that needs to go in the Custom HTML head settings due to the way CSS loads
+
+code{white-space:wrap}
+.page-content del {background: #FF5555!important; }
+.card .entity-list-item:not(.no-hover):hover {background-color: #44475a !important;}
+.page-content ins {background: #50fa7b!important;color: #282a36!important;}
+.suggestion-box {background-color: #282a36!important;border: 1px solid #BBB;box-shadow: none!important;border-radius: 0!important; }
+.suggestion-box li:last-child {border-bottom: 0; }
+.suggestion-box li.active {background-color: #44475a!important; }
+.card .entity-list-item:not(.no-hover):hover {background-color: #44475a!important; }
+.card-title {text-transform: uppercase; color: #f8f8f2; fill: #f8f8f2; font-weight: 400;}
+.markdown-editor-display{background-color: #282a36; }
+.markdown-editor-display body {background-color: #282a36; }
+.breadcrumb-listing-entity-list {background-color:#282a36 !important;}
+.breadcrumb-listing .breadcrumb-listing-toggle:hover {fill: #f8f8f2;border-color: transparent;}
+.entity-meta {fill:#f8f8f2!important;}
+.book-tree .sidebar-page-list .entity-list-item.selected {background-color:#44475a;}
+
+*/
