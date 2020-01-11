@@ -32,6 +32,9 @@ hr{background-color:rgba(0,0,0,.2)}
 #markdown-editor .markdown-editor-wrap {background-color: #282a36;}
 .card{  background: transparent;box-shadow:none}
 .comment-box {background-color: #333644;}
+.suggestion-box {background-color: #5e606a;}
+.suggestion-box li.active {background-color: #9b9ca3;}
+[notification] {background-color: #1d1f26;}
 
 /* text */
 .text-page {color: #8be9fd;}
@@ -50,6 +53,7 @@ h2, h3, h4, h5, h6 {font-weight: 700}
 .tag-item .tag-value {background-color: rgba(255, 255, 255, 0.1);}
 .tag-item a {color: #f8f8f2;}
 .text-small {color: #777 !important;}
+[notification="success"] svg {fill: #0f7d15 !important;}
 .entity-list-item:focus, .icon-list-item:focus {background-color:#44475a;}
 
 /* border changes */
