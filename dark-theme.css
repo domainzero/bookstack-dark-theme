@@ -1,9 +1,3 @@
-/*
-*************************************************************
-Colors and theming used are from the fantastic Dracula color
-scheme found here: https://github.com/dracula/dracula-theme
-*/
-
 /* optional */
 /* uppercase titles */
 .page-content h1{text-transform:uppercase}
@@ -11,7 +5,6 @@ h1.break-text{text-transform:uppercase}
 
 
 /* Dracula stuff */
-
 /* background */
 :focus{outline-style:none!important}
 html {background-color: #282b36;}
@@ -23,8 +16,6 @@ body.shaded {background-color: #282a36;}
 .toolbar-container {background-color:#282a36}
 .search-box input{background-color:rgba(0,0,0,.2);border:1px solid rgba(255,255,255,.3)}
 hr{background-color:rgba(0,0,0,.2)}
-.page-list .page {border-left: 5px solid #8be9fd}
-.page-list h5{border-left: 5px solid #8be9fd}
 .faded-small, .primary-background-light {background-color: #282a36;}
 .floating-toolbox{background-color:#282a36}
 .editor-toolbar{background-color:#282a36;border-bottom:1px solid rgba(0,0,0,.2);}
@@ -60,10 +51,8 @@ h2, h3, h4, h5, h6 {font-weight: 700}
 header {border-bottom: 0;}
 .flex.sidebar+.flex.content {border-left: 0;}
 .card h3{ border-bottom:0}
-#sidebar .scroll-body.fixed{border-left: 1px solid #6272a4}
 .fake-input, .input-base, input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=text], input[type=url], select, textarea{border: 1px solid #44475a;color: #f8f8f2;background-color: rgba(0,0,0,.2);}
 .activity-list-item {border-bottom:1px solid rgba(0,0,0,.2)}
-.page-list .chapter {border-left: 5px solid #ffb86c;}
 .floating-toolbox{border:0}
 #markdown-editor .markdown-editor-wrap{border: 1px solid rgba(0,0,0,.2);}
 
@@ -80,13 +69,10 @@ header {border-bottom: 0;}
 ******************************
 pages */
 .book-tree .sidebar-page-list .page {color: #8be9fd!important;}
-.book-tree .sidebar-page-list .list-item-page {border-left: 5px solid #8be9fd;}
 /* chapters */
 .book-tree .sidebar-page-list .chapter {color: #ffb86c!important;}
-.book-tree .sidebar-page-list .list-item-chapter {border-left: 5px solid #ffb86c;}
 /* books */
 .book-tree .sidebar-page-list .book {color: #50fa7b!important;}
-.book-tree .sidebar-page-list {border-left: 5px solid #50fa7b;}
 
 .input-base.invalid, .input-base.neg, .invalid.fake-input, .neg.fake-input, input.invalid[type=date], input.invalid[type=email], input.invalid[type=number], input.invalid[type=password], input.invalid[type=search], input.invalid[type=text], input.invalid[type=url], input.neg[type=date], input.neg[type=email], input.neg[type=number], input.neg[type=password], input.neg[type=search], input.neg[type=text], input.neg[type=url], select.invalid, select.neg, textarea.invalid, textarea.neg {border: 1px solid #ff5555;}
 .text-neg, p .neg, p.neg, span.neg {color: #ff5555;}
@@ -152,30 +138,37 @@ ul > li > a {color: #8be9fd!important}
 #export-menu {color:#f8f8f2!important;}
 .book-tree .sidebar-page-list .entity-list-item.selected {background-color:#44475a;}
 /* other changes */
-code {color:#50fa7b;background-color:#44475a}
 .code-base, code, span.code {border: 1px solid #6272a4;border-radius: 0px;}
 .button.pos, input[type=button].pos, input[type=submit].pos {background-color: #50fa7b;color: #282a36;text-transform: uppercase;border: 1px solid #52a256;vertical-align: top;}
 table.table tr:hover {background-color: #44475a;}
 table.table tr {border-bottom: 1px solid rgba(0,0,0,.2);}
-blockquote{border-left: 4px solid #8be9fd;background-color: #44475a;}
-
+blockquote{border-left: 4px solid #8be9fd;background-color: #282a36!important;}
+.entity-selector .entity-list-item {background-color:#282a36;}
+.entity-selector {border:0}
 
 /* Stuff that needs to go in the Custom HTML head settings due to the way CSS loads
-
-code{white-space:wrap}
-.page-content del {background: #FF5555!important; }
+***********************************************************************************
+code {color:#50fa7b;background-color:#282b36;white-space:pre-line;}
+.page-content del {background: #FF5555!important;}
 .card .entity-list-item:not(.no-hover):hover {background-color: #44475a !important;}
 .page-content ins {background: #50fa7b!important;color: #282a36!important;}
-.suggestion-box {background-color: #282a36!important;border: 1px solid #BBB;box-shadow: none!important;border-radius: 0!important; }
+.suggestion-box {background-color: #282a36!important;border: 1px solid #BBB;box-shadow: none!important;border-radius: 0!important;}
 .suggestion-box li:last-child {border-bottom: 0; }
-.suggestion-box li.active {background-color: #44475a!important; }
-.card .entity-list-item:not(.no-hover):hover {background-color: #44475a!important; }
-.card-title {text-transform: uppercase; color: #f8f8f2; fill: #f8f8f2; font-weight: 400;}
-.markdown-editor-display{background-color: #282a36; }
-.markdown-editor-display body {background-color: #282a36; }
+.suggestion-box li.active {background-color: #44475a!important;}
+.card .entity-list-item:not(.no-hover):hover {background-color: #44475a!important;}
+.card-title {text-transform: uppercase;color: #f8f8f2;fill: #f8f8f2;font-weight: 400;}
+.markdown-editor-display{background-color: #282a36;}
+.markdown-editor-display body {background-color: #282a36;}
 .breadcrumb-listing-entity-list {background-color:#282a36 !important;}
 .breadcrumb-listing .breadcrumb-listing-toggle:hover {fill: #f8f8f2;border-color: transparent;}
 .entity-meta {fill:#f8f8f2!important;}
 .book-tree .sidebar-page-list .entity-list-item.selected {background-color:#44475a;}
-
+table.table tr:hover {background-color:#44475a;}
+.code-base, code, span.code {background-color: #44475a;color: #ff5555;white-space:pre-line!important;border: 0;}
+.tri-layout-mobile-tab:first-child {border-right: 0;background: #282a36;}
+.tri-layout-mobile-tab {text-align: center;border-bottom: 0;cursor: pointer;background: #282a36;}
+.tri-layout-mobile-tab.active {border-bottom-color: none;background: #44475a;}
+.tri-layout-mobile-tabs {border:0;}
+.entity-selector .entity-list-item {background-color:#282a36;}
+.entity-selector {border:0}
 */
