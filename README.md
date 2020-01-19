@@ -24,13 +24,13 @@ code {color:#50fa7b;background-color:#282b36;white-space:pre-line;}
 .entity-meta {fill:#f8f8f2!important;}
 .book-tree .sidebar-page-list .entity-list-item.selected {background-color:#44475a;}
 table.table tr:hover {background-color:#44475a;}
-.code-base, code, span.code {background-color: #44475a;color: #ff5555;white-space:pre-line!important;border: 0;}
 .tri-layout-mobile-tab:first-child {border-right: 0;background: #282a36;}
 .tri-layout-mobile-tab {text-align: center;border-bottom: 0;cursor: pointer;background: #282a36;}
 .tri-layout-mobile-tab.active {border-bottom-color: none;background: #44475a;}
 .tri-layout-mobile-tabs {border:0;}
 .entity-selector .entity-list-item {background-color:#282a36;}
 .entity-selector {border:0}
+blockquote{border-left: 4px solid #8be9fd;background-color: transparent!important;}
 </style>
 ```
 
