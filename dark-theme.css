@@ -146,8 +146,8 @@ blockquote{border-left: 4px solid #8be9fd;background-color: #282a36!important;}
 .entity-selector .entity-list-item {background-color:#282a36;}
 .entity-selector {border:0}
 
-/* Stuff that needs to go in the Custom HTML head settings due to the way CSS loads
-***********************************************************************************
+/* PUT THESE IN YOUR "Custom HTML Head Settings"!
+
 code {color:#50fa7b;background-color:#282b36;white-space:pre-line;}
 .page-content del {background: #FF5555!important;}
 .card .entity-list-item:not(.no-hover):hover {background-color: #44475a !important;}
