@@ -45,12 +45,10 @@ Report any issues you find here.
 
 # Screenshots
 **Login:**
-![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/login.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/login.png)
 **Main page:**
-![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/overview.png)
-**Book with chapters:**
-![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/book.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/library.png)
 **Page:**
-![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/page.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/page.png)
 **Editor:**
-![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/screenshots/editor.png)
+![](https://raw.githubusercontent.com/domainzero/bookstack-dark-theme/master/editor.png)
