@@ -31,8 +31,9 @@ table.table tr:hover {background-color:#44475a;}
 .entity-selector .entity-list-item {background-color:#282a36;}
 .entity-selector {border:0}
 blockquote{border-left: 4px solid #8be9fd;background-color: transparent!important;}
-header .header-links {background-color: #282a36;}
+header .header-links {background-color: transparent;}
 header .links a:hover, header .dropdown-container ul li a:hover {background-color:#44475a;}
+@media screen and (max-width: 1000px) {header .header-links {background-color: #282a36;}}
 </style>
 ```
 
