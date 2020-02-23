@@ -6,6 +6,8 @@ Download and use at your own risk.
 2. Call the stylesheet in the "Custom HTML head content" section in the settings like so:
 	`<link rel="stylesheet" href="https://bookstack.example.com/css/dark-theme.css">`
 3. Additionally, put the following block in your Custom HTML Head Content (these rules are also included in the bottom of the CSS sheet. They must be put in your Custom HTML Head Content due to how the CSS loads in Bookstack)
+4. Enjoy!
+
 ```css
 <style>
 code {color:#50fa7b;background-color:#282b36;white-space:pre-line;}
