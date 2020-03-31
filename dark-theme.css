@@ -49,6 +49,7 @@ h2, h3, h4, h5, h6 {font-weight: 700}
 
 /* border changes */
 header {border-bottom: 0;}
+#header{background-color:transparent!important}
 .flex.sidebar+.flex.content {border-left: 0;}
 .card h3{ border-bottom:0}
 .fake-input, .input-base, input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=text], input[type=url], select, textarea{border: 1px solid #44475a;color: #f8f8f2;background-color: rgba(0,0,0,.2);}
@@ -146,8 +147,8 @@ blockquote{border-left: 4px solid #8be9fd;background-color: #282a36!important;}
 .entity-selector .entity-list-item {background-color:#282a36;}
 .entity-selector {border:0}
 
-/* PUT THESE IN YOUR "Custom HTML Head Settings"!
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+/* Stuff that needs to go in the Custom HTML head settings due to the way CSS loads
+***********************************************************************************
 code {color:#50fa7b;background-color:#282b36;white-space:pre-line;}
 .page-content del {background: #FF5555!important;}
 .card .entity-list-item:not(.no-hover):hover {background-color: #44475a !important;}
@@ -174,4 +175,5 @@ blockquote{border-left: 4px solid #8be9fd;background-color: transparent!importan
 header .header-links {background-color: transparent;}
 header .links a:hover, header .dropdown-container ul li a:hover {background-color:#44475a;}
 @media screen and (max-width: 1000px) {header .header-links {background-color: #282a36;}}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 */
