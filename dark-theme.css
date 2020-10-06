@@ -49,6 +49,7 @@ h2, h3, h4, h5, h6 {font-weight: 700}
 
 /* border changes */
 header {border-bottom: 0;}
+#header{background-color:transparent!important}
 .flex.sidebar+.flex.content {border-left: 0;}
 .card h3{ border-bottom:0}
 .fake-input, .input-base, input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=text], input[type=url], select, textarea{border: 1px solid #44475a;color: #f8f8f2;background-color: rgba(0,0,0,.2);}
