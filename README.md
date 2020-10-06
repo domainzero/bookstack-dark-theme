@@ -10,32 +10,24 @@ Download and use at your own risk.
 
 ```css
 <style>
-code {color:#50fa7b;background-color:#282b36;white-space:pre-line;}
-.page-content del {background: #FF5555!important;}
-.card .entity-list-item:not(.no-hover):hover {background-color: #44475a !important;}
-.page-content ins {background: #50fa7b!important;color: #282a36!important;}
-.suggestion-box {background-color: #282a36!important;border: 1px solid #BBB;box-shadow: none!important;border-radius: 0!important;}
-.suggestion-box li:last-child {border-bottom: 0; }
-.suggestion-box li.active {background-color: #44475a!important;}
-.card .entity-list-item:not(.no-hover):hover {background-color: #44475a!important;}
-.card-title {text-transform: uppercase;color: #f8f8f2;fill: #f8f8f2;font-weight: 400;}
-.markdown-editor-display{background-color: #282a36;}
-.markdown-editor-display body {background-color: #282a36;}
-.breadcrumb-listing-entity-list {background-color:#282a36 !important;}
-.breadcrumb-listing .breadcrumb-listing-toggle:hover {fill: #f8f8f2;border-color: transparent;}
-.entity-meta {fill:#f8f8f2!important;}
-.book-tree .sidebar-page-list .entity-list-item.selected {background-color:#44475a;}
-table.table tr:hover {background-color:#44475a;}
-.tri-layout-mobile-tab:first-child {border-right: 0;background: #282a36;}
-.tri-layout-mobile-tab {text-align: center;border-bottom: 0;cursor: pointer;background: #282a36;}
-.tri-layout-mobile-tab.active {border-bottom-color: none;background: #44475a;}
-.tri-layout-mobile-tabs {border:0;}
-.entity-selector .entity-list-item {background-color:#282a36;}
-.entity-selector {border:0}
-blockquote{border-left: 4px solid #8be9fd;background-color: transparent!important;}
-header .header-links {background-color: transparent;}
-header .links a:hover, header .dropdown-container ul li a:hover {background-color:#44475a;}
-@media screen and (max-width: 1000px) {header .header-links {background-color: #282a36;}}
+.title-input.page-title input[type=text]{background:#44475a}
+.floating-toolbox div[toolbox-tab-content]{background-color:#282a36}
+html.dark-mode .card.drag-card{background-color:#44475a}
+html.dark-mode .card.drag-card .handle{background-color:#44475a}
+.card.drag-card .outline input{background-color:#282a36;color:#f8f8f2}
+#header{background-color:#282a36!important}
+html.dark-mode .fake-input,html.dark-mode .input-base,html.dark-mode input[type=color],html.dark-mode input[type=date],html.dark-mode input[type=email],html.dark-mode input[type=number],html.dark-mode input[type=password],html.dark-mode input[type=search],html.dark-mode input[type=text],html.dark-mode input[type=url],html.dark-mode select,html.dark-mode textarea{color:#f8f8f2;background-color:#44475a}
+html.dark-mode{background-color:#282a36}
+html.dark-mode .card{background-color:transparent}
+html.dark-mode body{color:#6272a4;background-color:transparent}
+.markdown-editor-display{background-color:#282a36!important}
+html.markdown-editor-display.dark-mode body{background-color:#282a36}
+.logo-text{color:var(--color-primary)!important}
+html.dark-mode code{background-color:#44475a}
+html.dark-mode pre{background-color:#44475a}
+.title-input.page-title input[type=text]{background:#44475a}
+html.dark-mode .editor-toolbar{background-color:#282a36}
+html.dark-mode .primary-background-light{background:#282a36}
 </style>
 ```
 
